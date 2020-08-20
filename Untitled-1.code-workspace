@@ -1,0 +1,40 @@
+{
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2, //#代码缩进修改成2个空格
+  "files.autoSave": "off",
+  "editor.formatOnSave": true, // #每次保存的时候自动格式化
+  // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.detectIndentation": false,
+  "eslint.codeAction.disableRuleComment": {},
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "vue", "html"],
+  // git终端
+  "git.path": "D:/Git/bin/git.exe",
+  "terminal.integrated.shell.windows": "D:\\Git\\bin\\bash.exe",
+  "[git-commit]": {},
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ],
+
+  "java.semanticHighlighting.enabled": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
